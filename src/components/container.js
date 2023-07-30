@@ -16,7 +16,7 @@ export default class Container extends React.Component {
         selectedVideo: null
     };
 
-    this.handleInputThrottled = debounce(this.videoSearch, 1500)
+    this.handleInputThrottled = debounce(this.videoSearch, 1500) // this is debouncing
 }
 
 videoSearch(searchTerm) {
